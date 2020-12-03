@@ -879,11 +879,11 @@ section {
 }
 
 .rs-select2--sm {
-    width: 114px;
+  width: 200px;
 }
 
 .rs-select2--md {
-    width: 160px;
+    width: 200px;
 }
 
 .select2-container {
@@ -4695,8 +4695,8 @@ section {
 }
 
 .table-data3 thead tr th:last-child {
-    text-align: right;
-    padding-right: 50px;
+    text-align: center;
+    padding-right: 0px;
 }
 
 .table-data3 tbody tr td:last-child {
