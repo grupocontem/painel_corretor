@@ -85,7 +85,7 @@
 			},
 			success :  function(response){
 				if($.trim(response) == 'true'){
-					window.location.href = "dashboard.php";
+					window.location.href = "inicio.php";
 				} else if($.trim(response) == 'vazio'){
           swal("Ops!", "Você deve digitar seu email e sua senha!", "warning");
           $("#login-button").html('ENTRAR');

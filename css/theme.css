@@ -485,6 +485,7 @@ section {
 
 .au-btn--blue {
     background: #4272d7;
+    width: 100%;
 }
 
 .au-btn--green {
@@ -879,11 +880,11 @@ section {
 }
 
 .rs-select2--sm {
-  width: 200px;
+  width: 250px;
 }
 
 .rs-select2--md {
-    width: 200px;
+    width: 250px;
 }
 
 .select2-container {
@@ -2141,8 +2142,9 @@ section {
     -moz-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background: #365cad;
-    padding: 0 35px;
+    background: #f5f5f5;
+    padding: 0 60px;
+    border-right: 1px solid #e5e5e5;
 }
 
 @media (max-width: 991px) {
@@ -2300,12 +2302,13 @@ section {
 
 .header-desktop2 {
     height: 75px;
-    background: #4272d7;
+    background: #f5f5f5;
     position: fixed;
     z-index: 1001;
     top: 0;
     right: 0;
     left: 300px;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 @media (max-width: 991px) {
@@ -2369,6 +2372,7 @@ section {
 
 .header-button2 .header-button-item i {
     vertical-align: middle;
+    color: #7980ad;
 }
 
 .header-button2 .header-button-item .search-dropdown {
