@@ -2,10 +2,10 @@
 
 session_start();
 
-$localhost = 'grupocontem.com.br';
-$user = 'grupocon_conexao';
-$pass = 'c0Nt3m#2@1p';
-$banco = 'grupocon_contem';
+$localhost = '';
+$user = '';
+$pass = '';
+$banco = '';
 
 global $pdo;
 

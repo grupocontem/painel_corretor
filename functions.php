@@ -15,7 +15,7 @@ while ($linha = $consulta->fetch(PDO::FETCH_ASSOC)) {
     $codigo_corretor = $linha['codigo_corretor'];
 }
 
-$conexao = mysqli_connect("grupocontem.com.br", "grupocon_conexao", "c0Nt3m#2@1p", "grupocon_vendapj") or die("Sem conexao");
+$conexao = mysqli_connect("", "", "", "") or die("Sem conexao");
 if (mysqli_connect_errno()) trigger_error(mysqli_connect_error());
 
 
